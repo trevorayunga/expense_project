@@ -8,3 +8,5 @@ body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 h1 { margin-bottom: 0; }
 .subtitle { margin-top: .25rem; color: var(--muted); }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; }
+h2 { font-size: 1.1rem; margin: 0 0 .75rem; }
+label { display: flex; flex-direction: column; font-size: .85rem; color: var(--muted); gap: .25rem; }
