@@ -13,3 +13,6 @@ label { display: flex; flex-direction: column; font-size: .85rem; color: var(--m
 input, select, button { font: inherit; padding: .5rem .6rem; border: 1px solid var(--border); border-radius: 8px; }
 input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
 .form-grid { display: grid; gap: .75rem; grid-template-columns: 2fr 1fr 1fr 1fr auto; align-items: end; }
+button { cursor: pointer; background: #fff; }
+button.primary { background: var(--primary); border-color: var(--primary); color: #fff; font-weight: 600; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 1rem; align-items: end; margin-bottom: .75rem; }
